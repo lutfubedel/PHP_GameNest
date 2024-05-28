@@ -2,7 +2,7 @@
 
 GameNest, indie oyun geliştiricilerinin oyunlarını paylaşabilecekleri ve diğer geliştiricilerin oyunlarını deneyimleyebilecekleri bir platformdur.
 
-![GameNest Ana Sayfa](images/image1.jpg)
+![GameNest Ana Sayfa](images/image1.png)
 
 ## Özellikler
 
