@@ -27,8 +27,7 @@ GameNest, indie oyun geliştiricilerinin oyunlarını paylaşabilecekleri ve di�
 
 ## Demo Videosu
 
-[![GameNest Demo](https://youtu.be/gkDDoyJntsQ?si=xAxP6hIajJW200yP)
-
+[![GameNest Demo](https://img.youtube.com/vi/yourvideoid/maxresdefault.jpg)](https://youtu.be/gkDDoyJntsQ?si=vo8k8qN_2fy0uhWZ)
 
 ## Lisans
 
