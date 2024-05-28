@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/* Custom CSS */
+body {
+    background-color: #f8f9fa; /* Yumuşak bir arka plan rengi */
+    color: #333; /* Metin rengi */
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif; /* Daha modern bir yazı tipi */
+    margin-top: 60px; /* Navbar'ı sabit tutmak için body'e bir üst boşluk ekle */
+    font-size: 14px; /* Daha küçük genel yazı boyutu */
+}
+.navbar-brand {
+    font-weight: bold;
+    margin-right: auto;
+    color: #007bff; /* GAMENEST yazısının rengi */
+}
+.navbar-nav .nav-link {
+    color: #007bff; /* Menü bağlantılarının rengi */
+    font-size: 14px; /* Menü bağlantılarının yazı boyutu */
+}
+.btn-signin, .btn-edit-profile {
+    background-color: #f13f61;
+    color: white;
+    border-radius: 15px; /* Daha yuvarlatılmış kenarlar */
+    transition: background-color 0.3s ease; /* Daha yumuşak bir geçiş efekti */
+    padding: 8px 16px; /* Butonların iç boşluklarını küçült */
+    font-size: 14px; /* Buton yazı boyutu */
+}
+.btn-signin:hover, .btn-details:hover {
+    background-color: #d6304a; /* Hover efekti */
+}
+
+/* Custom CSS for Edit Profile Form */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); /* Daha hafif gölge efekti */
+    border-radius: 10px; /* Kenar yuvarlaklığı */
+    border: none; /* Kenar çizgisini kaldır */
+}
+
+.card-body {
+    padding: 1.5rem; /* İç boşluğu azalt */
+}
+
+h2.text-center {
+    color: #4b7bec; /* Başlık rengi */
+    margin-bottom: 1rem; /* Alt boşluğu azalt */
+    font-weight: 700; /* Yazı kalınlığı */
+    font-size: 18px; /* Başlık yazı boyutu */
+}
+
+.form-group label {
+    font-weight: 600; /* Etiket yazı kalınlığı */
+    color: #333; /* Etiket rengi */
+    font-size: 14px; /* Etiket yazı boyutu */
+}
+
+.form-control, .form-control-file {
+    border-radius: 15px; /* Giriş alanlarının kenar yuvarlaklığı */
+    border: 1px solid #ced4da; /* Giriş alanlarının kenar çizgisi */
+    padding: .375rem .75rem; /* Giriş alanlarının iç boşluğu */
+    font-size: 14px; /* Giriş alanlarının yazı boyutu */
+}
+
+.form-control:focus, .form-control-file:focus {
+    border-color: #4b7bec; /* Giriş alanı odaklandığında kenar rengi */
+    box-shadow: 0 0 0 0.2rem rgba(75, 123, 236, 0.25); /* Odaklanma gölgesi */
+}
+
+.btn-primary {
+    background-color: #4b7bec; /* Buton arka plan rengi */
+    border-color: #4b7bec; /* Buton kenar rengi */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1); /* Daha hafif buton gölge efekti */
+    padding: 8px 16px; /* Butonların iç boşluklarını küçült */
+    font-size: 14px; /* Buton yazı boyutu */
+}
+
+.btn-primary a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #3867d6; /* Buton üzerine gelindiğinde arka plan rengi */
+    border-color: #3867d6; /* Buton üzerine gelindiğinde kenar rengi */
+}

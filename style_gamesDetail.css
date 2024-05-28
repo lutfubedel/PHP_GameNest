@@ -1,0 +1,83 @@
+/* Custom CSS */
+body {
+    background-color: #f8f9fa; /* Yumuşak bir arka plan rengi */
+    color: #333; /* Metin rengi */
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif; /* Daha modern bir yazı tipi */
+    margin-top: 60px; /* Navbar'ı sabit tutmak için body'e bir üst boşluk ekle */
+}
+.navbar-brand {
+    font-weight: bold;
+    margin-right: auto;
+    color: #007bff; /* GAMENEST yazısının rengi */
+}
+.navbar-nav .nav-link {
+    color: #007bff; /* Menü bağlantılarının rengi */
+}
+.btn-signin {
+    background-color: #f13f61;
+    color: white;
+    border-radius: 20px; /* Daha yuvarlatılmış kenarlar */
+    transition: background-color 0.3s ease; /* Daha yumuşak bir geçiş efekti */
+}
+.btn-signin:hover {
+    background-color: #d6304a; /* Hover efekti */
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.game-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+
+.img-fluid.game-image {
+    width: 100%;
+    max-width: 300px; /* Maksimum genişlik */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    display: block; /* Vertical alignment */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game-video {
+    width: 100%;
+    max-width: 600px; /* Maksimum genişlik */
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #4b7bec; /* Buton arka plan rengi */
+    color: #fff; /* Buton metin rengi */
+    border-radius: 30px; /* Buton kenar yuvarlaklığı */
+    border: none; /* Buton kenar çizgisi */
+    padding: 12px 30px; /* Buton iç boşluğu */
+    font-weight: 600; /* Buton metin kalınlığı */
+    transition: background-color 0.3s ease; /* Geçiş efekti */
+}
+
+.btn-primary:hover {
+    background-color: #3867d6; /* Buton hover arka plan rengi */
+}

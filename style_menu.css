@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"); 
+
+/* Custom CSS */
+body {
+    background-color: #f8f9fa; /* Yumuşak bir arka plan rengi */
+    color: #333; /* Metin rengi */
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif; /* Daha modern bir yazı tipi */
+    margin-top: 60px; /* Navbar'ı sabit tutmak için body'e bir üst boşluk ekle */
+}
+.navbar-brand {
+    font-weight: bold;
+    margin-right: auto;
+    color: #007bff; /* GAMENEST yazısının rengi */
+}
+.navbar-nav .nav-link {
+    color: #007bff; /* Menü bağlantılarının rengi */
+}
+.btn-signin {
+    background-color: #f13f61;
+    color: white;
+    border-radius: 20px; /* Daha yuvarlatılmış kenarlar */
+    transition: background-color 0.3s ease; /* Daha yumuşak bir geçiş efekti */
+}
+.btn-signin:hover {
+    background-color: #d6304a; /* Hover efekti */
+}
+.header-content {
+    text-align: center;
+    padding: 100px 20px;
+}
+.header-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #007bff; /* Başlık rengi */
+}
+.header-content p {
+    font-size: 1.2rem;
+    color: #666; /* Metin rengi */
+}
+.search-box {
+    margin-top: 25px;
+}
+.search-box input {
+    border-radius: 30px; /* Daha yuvarlatılmış bir arama kutusu */
+    padding: 25px 20px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hafif bir gölge */
+}
+.search-box button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f13f61;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    position: relative;
+}
+
+.view-all-btn {
+    border: 1px solid #dc3545;
+    color: #dc3545;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: absolute;
+    right: 32px;
+    top: 20px;
+}
+
+.view-all-btn:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Ana Kart Stili */
+.feature-box, .product-card, .category-card {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ffffff; /* Kutuların arka plan rengi */
+    border-radius: 15px; /* Kutu kenarlarını daha fazla yuvarla */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Daha belirgin bir gölge */
+    position: relative; /* İncele butonunun doğru konumlanması için */
+    transition: transform 0.3s, box-shadow 0.3s; /* Hover animasyonu için */
+}
+
+.feature-box:hover, .product-card:hover, .category-card:hover {
+    transform: translateY(-10px); /* Hover sırasında yukarı kaldır */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hover sırasında daha belirgin gölge */
+}
+
+/* Resim Stili */
+.product-card img, .category-card img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif bir gölge */
+    transition: transform 0.3s; /* Hover animasyonu için */
+}
+
+.product-card img:hover, .category-card img:hover {
+    transform: scale(1.05); /* Hover sırasında hafif büyütme efekti */
+}
+
+/* Ekstra Stil İyileştirmeleri */
+.product-card, .category-card {
+    position: relative; /* Fiyat ve indirim etiketlerinin doğru konumlanması için */
+    overflow: hidden; /* Kart içeriğinin taşmasını engelle */
+}
+
+.product-card h5, .category-card h5 {
+    font-family: 'Arial', sans-serif; /* Daha modern bir yazı tipi */
+    color: #333; /* Daha koyu metin rengi */
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.product-card p, .category-card p {
+    font-family: 'Arial', sans-serif;
+    color: #777; /* Daha açık metin rengi */
+}
+
+/* Geçiş ve Animasyon */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.product-card, .category-card {
+    animation: fadeIn 0.5s ease-in;
+}
+
+.category-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px 0;
+}
+
+.category-navbar .navbar-nav {
+    margin: 0 auto;
+}
+
+.category-navbar .nav-item {
+    margin: 0 10px;
+}
+
+.category-navbar .nav-link {
+    position: relative;
+    background: #fff;
+    color: #27282c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.category-navbar .nav-link:hover {
+    background: #27282c;
+    color: #fff;
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px #27282c;
+}
+
+.category-navbar .nav-link::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #fff;
+}
+
+.category-navbar .nav-link span {
+    position: relative;
+    z-index: 1;
+}
+
+.category-navbar .nav-link i {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+.category-navbar .nav-link i::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 10px;
+    height: 4px;
+    background: #ffffff;
+    transform: translateX(-50%) skewX(325deg);
+}
+
+.category-navbar .nav-link:hover i::before {
+    width: 20px;
+    left: 20%;
+}
+
+.category-navbar .nav-link i::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    width: 10px;
+    height: 4px;
+    background: #ffffff;
+    transform: translateX(-50%) skewX(325deg);
+}
+
+.category-navbar .nav-link:hover i::after {
+    width: 20px;
+    left: 80%;
+}
+
+.product-card .btn, .category-card .btn {
+    position: relative;
+    margin-top: 10px;
+}
+
+/* Yeni eklemeler */
+.product-card .card-body {
+    padding: 20px;
+}

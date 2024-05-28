@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"); 
+
+/* Custom CSS */
+body {
+    background-color: #f8f9fa; /* Yumuşak bir arka plan rengi */
+    color: #333; /* Metin rengi */
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif; /* Daha modern bir yazı tipi */
+    margin-top: 60px; /* Navbar'ı sabit tutmak için body'e bir üst boşluk ekle */
+}
+.navbar-brand {
+    font-weight: bold;
+    margin-right: auto;
+    color: #007bff; /* GAMENEST yazısının rengi */
+}
+.navbar-nav .nav-link {
+    color: #007bff; /* Menü bağlantılarının rengi */
+}
+.btn-signin , .btn-edit-profile{
+    background-color: #f13f61;
+    color: white;
+    border-radius: 20px; /* Daha yuvarlatılmış kenarlar */
+    transition: background-color 0.3s ease; /* Daha yumuşak bir geçiş efekti */
+}
+.btn-signin:hover, .btn-edit-profile{
+    background-color: #d6304a; /* Hover efekti */
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.btn-edit-profile {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
