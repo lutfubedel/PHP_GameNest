@@ -14,16 +14,16 @@ GameNest, indie oyun geliştiricilerinin oyunlarını paylaşabilecekleri ve di�
 ## Ekran Görüntüleri
 
 ### Ana Sayfa
-![Ana Sayfa](images/images1.png)
-![Oyun Detayları](images/images2.png)
-![Oyun Detayları](images/images3.png)
-![Oyun Detayları](images/images4.png)
-![Oyun Detayları](images/images5.png)
+![Ana Sayfa](images/image1.png)
+![Oyun Detayları](images/image2.png)
+![Oyun Detayları](images/image3.png)
+![Oyun Detayları](images/image4.png)
+![Oyun Detayları](images/image5.png)
 
 
 ### Oyun Detayları
-![Oyun Detayları](images/images6.png)
-![Oyun Detayları](images/images7.png)
+![Oyun Detayları](images/image6.png)
+![Oyun Detayları](images/image7.png)
 
 ## Demo Videosu
 
